@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\hobbies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\hobbies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\about_me.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\about_me.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\about_me.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,20 @@
       "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\hobbies.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\skills.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\skills.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E834163F-2B7A-50AF-B1EE-C74F29F5202A}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,33 +46,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "ResumeSite\\Pages\\Index.cshtml.cs",
-              "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "ResumeSite\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T21:07:00.981Z",
+              "DocumentIndex": 2,
+              "Title": "About_Me.cshtml",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\About_Me.cshtml",
+              "RelativeDocumentMoniker": "ResumeSite\\Pages\\About_Me.cshtml",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\About_Me.cshtml",
+              "RelativeToolTip": "ResumeSite\\Pages\\About_Me.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T21:40:03.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Hobbies.cshtml",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Hobbies.cshtml",
+              "RelativeDocumentMoniker": "ResumeSite\\Pages\\Hobbies.cshtml",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Hobbies.cshtml",
+              "RelativeToolTip": "ResumeSite\\Pages\\Hobbies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T21:39:52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Skills.cshtml.cs",
               "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Skills.cshtml.cs",
               "RelativeDocumentMoniker": "ResumeSite\\Pages\\Skills.cshtml.cs",
               "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Skills.cshtml.cs",
               "RelativeToolTip": "ResumeSite\\Pages\\Skills.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T21:06:52.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T21:06:52.351Z"
             },
             {
               "$type": "Document",
@@ -77,6 +97,32 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T21:06:34.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Skills.cshtml",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Skills.cshtml",
+              "RelativeDocumentMoniker": "ResumeSite\\Pages\\Skills.cshtml",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Skills.cshtml",
+              "RelativeToolTip": "ResumeSite\\Pages\\Skills.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T21:05:23.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ResumeSite\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "ResumeSite\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T21:07:00.981Z",
               "EditorCaption": ""
             },
             {
@@ -94,33 +140,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Skills.cshtml",
-              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Skills.cshtml",
-              "RelativeDocumentMoniker": "ResumeSite\\Pages\\Skills.cshtml",
-              "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Skills.cshtml",
-              "RelativeToolTip": "ResumeSite\\Pages\\Skills.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T21:05:23.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ResumeSite\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ResumeSite\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T21:01:36.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T21:01:36.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "ResumeSite\\Pages\\Index.cshtml",
@@ -128,8 +160,7 @@
               "RelativeToolTip": "ResumeSite\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T20:40:15.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T20:40:15.757Z"
             }
           ]
         }
