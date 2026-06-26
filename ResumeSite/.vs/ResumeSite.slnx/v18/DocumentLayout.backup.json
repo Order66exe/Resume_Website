@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2942C0CB-21DA-438E-8EF9-1B36D5109686}|ResumeSite\\ResumeSite.csproj|e:\\githubrepos\\resume_website\\resumesite\\resumesite\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2942C0CB-21DA-438E-8EF9-1B36D5109686}|ResumeSite\\ResumeSite.csproj|solutionrelative:resumesite\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ResumeSite\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\ResumeSite\\ResumeSite\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ResumeSite\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T20:40:15.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
