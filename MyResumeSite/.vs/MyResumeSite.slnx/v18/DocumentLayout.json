@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EBBA4E-4960-445E-CD27-DE36758F1EF6}|myresumesite.client\\myresumesite.client.esproj|e:\\githubrepos\\resume_website\\myresumesite\\myresumesite.client\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{F2EBBA4E-4960-445E-CD27-DE36758F1EF6}|myresumesite.client\\myresumesite.client.esproj|solutionrelative:myresumesite.client\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EBBA4E-4960-445E-CD27-DE36758F1EF6}|myresumesite.client\\myresumesite.client.esproj|e:\\githubrepos\\resume_website\\myresumesite\\myresumesite.client\\myresumesite.client.esproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F2EBBA4E-4960-445E-CD27-DE36758F1EF6}|myresumesite.client\\myresumesite.client.esproj|solutionrelative:myresumesite.client\\myresumesite.client.esproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EBBA4E-4960-445E-CD27-DE36758F1EF6}|myresumesite.client\\myresumesite.client.esproj|e:\\githubrepos\\resume_website\\myresumesite\\myresumesite.client\\src\\app\\app-routing-module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{F2EBBA4E-4960-445E-CD27-DE36758F1EF6}|myresumesite.client\\myresumesite.client.esproj|solutionrelative:myresumesite.client\\src\\app\\app-routing-module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6F1A99-BB90-B7AB-3CC0-C17051F1DBFC}|MyResumeSite.Server\\MyResumeSite.Server.csproj|e:\\githubrepos\\resume_website\\myresumesite\\myresumesite.server\\myresumesite.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DA6F1A99-BB90-B7AB-3CC0-C17051F1DBFC}|MyResumeSite.Server\\MyResumeSite.Server.csproj|solutionrelative:myresumesite.server\\myresumesite.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6F1A99-BB90-B7AB-3CC0-C17051F1DBFC}|MyResumeSite.Server\\MyResumeSite.Server.csproj|e:\\githubrepos\\resume_website\\myresumesite\\myresumesite.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA6F1A99-BB90-B7AB-3CC0-C17051F1DBFC}|MyResumeSite.Server\\MyResumeSite.Server.csproj|solutionrelative:myresumesite.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "myresumesite.client",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\myresumesite.client\\myresumesite.client.esproj",
+              "RelativeDocumentMoniker": "myresumesite.client\\myresumesite.client.esproj",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\myresumesite.client\\myresumesite.client.esproj",
+              "RelativeToolTip": "myresumesite.client\\myresumesite.client.esproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-20T02:33:51.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.ts",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\myresumesite.client\\src\\app\\app.ts",
+              "RelativeDocumentMoniker": "myresumesite.client\\src\\app\\app.ts",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\myresumesite.client\\src\\app\\app.ts",
+              "RelativeToolTip": "myresumesite.client\\src\\app\\app.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-08-20T02:30:12.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyResumeSite.Server",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\MyResumeSite.Server\\MyResumeSite.Server.csproj",
+              "RelativeDocumentMoniker": "MyResumeSite.Server\\MyResumeSite.Server.csproj",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\MyResumeSite.Server\\MyResumeSite.Server.csproj",
+              "RelativeToolTip": "MyResumeSite.Server\\MyResumeSite.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-20T02:33:20.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app-routing-module.ts",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\myresumesite.client\\src\\app\\app-routing-module.ts",
+              "RelativeDocumentMoniker": "myresumesite.client\\src\\app\\app-routing-module.ts",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\myresumesite.client\\src\\app\\app-routing-module.ts",
+              "RelativeToolTip": "myresumesite.client\\src\\app\\app-routing-module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-08-20T02:31:12.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\MyResumeSite.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "MyResumeSite.Server\\appsettings.json",
+              "ToolTip": "E:\\GithubRepos\\Resume_Website\\MyResumeSite\\MyResumeSite.Server\\appsettings.json",
+              "RelativeToolTip": "MyResumeSite.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-20T02:30:01.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
