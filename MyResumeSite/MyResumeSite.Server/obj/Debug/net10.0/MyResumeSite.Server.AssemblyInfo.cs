@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyResumeSite.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69125eba9983d3c6e57685d030b46f0885414309")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf58b52201b9771bbcaea5212e52cb13b2e6789d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyResumeSite.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyResumeSite.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
