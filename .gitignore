@@ -1,2 +1,5 @@
 /MyResumeSite/.vs
 /MyResumeSite/.vs/MyResumeSite.slnx
+/MyResumeSite/MyResumeSite.Server/obj/Debug
+/MyResumeSite/MyResumeSite.Server/obj/Debug
+*.dll
