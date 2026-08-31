@@ -3,17 +3,25 @@
 namespace MyResumeSite.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class HobbiesController : ControllerBase
     {
+        private string[] HobbyNames = new string[] {
+            "Cooking",
+            "Drone Photography",
+            "Gaming",
+            "Surfing",
+            "Sketching"
+        };
         [HttpGet(Name = "GetHobbies")]
-        public IEnumerable<Hobby> Get()
+        public Hobby[] Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new Hobby
+            Hobby[] hobbies = new Hobby[5];
+            for (int i = 0; i < hobbies.Length; i++)
             {
-               
-            })
-            .ToArray();
+                hobbies[i] = new Hobby { Name = HobbyNames[i], Enjoyment = 5, AmIGood = true };
+            }
+            return hobbies;
         }
     }
 }

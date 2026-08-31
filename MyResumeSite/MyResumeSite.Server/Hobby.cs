@@ -4,8 +4,8 @@
     {
         public string Name { get; set; }
 
-        public Enum Proficiency { get; set; }
+        public int Enjoyment { get; set; }
 
-        public int EntryPrice { get; set; }
+        public bool AmIGood { get; set; }
     }
 }

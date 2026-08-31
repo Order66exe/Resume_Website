@@ -1,1 +1,4 @@
-<p>Hello Hobbies</p>
+<button class="primary" type="button" (click)="filterResults()">Search</button>
+@if(filteredHobbiesList.length) {
+<app-hobby *ngFor="let hobby of filteredHobbiesList" [hobby]="hobby"></app-hobby>
+}

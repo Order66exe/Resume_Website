@@ -1,14 +1,14 @@
 import { inject, Injectable } from '@angular/core';
-import { Skill } from './skill';
+import { Hobby } from './hobby';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class SkillsService {
+export class HobbiesService {
   url = 'https://jsonplaceholder.typicode.com/posts/1';
   constructor(private http: HttpClient) { }
-  getSkills(): Observable<Skill[]> {
-    return this.http.get<Skill[]>('https://localhost:7094/api/skills');
+  getHobbies(): Observable<Hobby[]> {
+    return this.http.get<Hobby[]>('https://localhost:7094/api/hobbies');
   }
 }

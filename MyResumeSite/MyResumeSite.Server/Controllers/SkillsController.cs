@@ -16,7 +16,6 @@ namespace MyResumeSite.Server.Controllers
         [HttpGet(Name = "GetSkills")]
         public Skill[] Get()
         {
-            //return "{\"name\": \"hello\",  \"myProficiency\": \"adawdawd\", \"yearsOfExperience\": 1}";
             Skill[] skills = new Skill[5];
             for (int i = 0; i < skills.Length; i++)
             {
