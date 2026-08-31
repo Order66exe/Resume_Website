@@ -1,16 +1,38 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, inject, Input, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { SkillsService } from '../skills.service';
+import { Skill } from '../skill';
+import { SkillComponent } from '../skill/skill.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './skills.html',
   standalone: true,
-  imports: [RouterOutlet, CommonModule],
+  imports: [RouterOutlet, CommonModule, SkillComponent],
+  templateUrl: "./skills.html",
   //styleUrl: './app.css'
 })
-export class SkillsComponent {
-  constructor(private http: HttpClient) { }
-  protected readonly title = signal('myresumesite.client');
+export class SkillsComponent{
+  skillsList: Skill[] = [];
+  filteredSkillsList: Skill[] = [];
+  skillsService: SkillsService = inject(SkillsService);
+  constructor() { }
+  ngOnInit() {
+    this.skillsService.getSkills().subscribe({
+      next: (data) => {
+        this.skillsList = [...data];
+        this.filteredSkillsList = this.skillsList;
+      },
+      error: (error) => {
+        console.log(error)
+      },
+      complete: () => {
+        console.log('complete')
+      }
+    }) 
+  }
+  filterResults() {
+    this.filteredSkillsList = this.skillsList.filter((skill) => skill.name.length > 0);
+  }
 }

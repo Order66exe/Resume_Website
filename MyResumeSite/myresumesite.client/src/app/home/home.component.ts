@@ -1,16 +1,16 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './home.html',
+  selector: 'app-home',
   standalone: true,
-  imports: [RouterOutlet, CommonModule]
-  //styleUrl: './app.css'
+  imports: [CommonModule],
+  templateUrl:"./home.html"
 })
 export class HomeComponent {
-  constructor(private http: HttpClient) { }
+  constructor() {
+  }
   protected readonly title = signal('myresumesite.client');
 }

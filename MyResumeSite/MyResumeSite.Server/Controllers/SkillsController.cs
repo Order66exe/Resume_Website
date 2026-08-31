@@ -3,24 +3,26 @@
 namespace MyResumeSite.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class SkillsController : ControllerBase
     {
-        private static readonly string[] Summaries =
-        [
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        ];
-
+        private string[] SkillNames = new string[] {
+            "C Sharp",
+            "JavaScript",
+            "Angular",
+            "CSS",
+            "HTML"
+        };
         [HttpGet(Name = "GetSkills")]
-        public IEnumerable<WeatherForecast> Get()
+        public Skill[] Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            //return "{\"name\": \"hello\",  \"myProficiency\": \"adawdawd\", \"yearsOfExperience\": 1}";
+            Skill[] skills = new Skill[5];
+            for (int i = 0; i < skills.Length; i++)
             {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+                skills[i] = new Skill { Name = SkillNames[i], MyProficiency = "Beginner", YearsOfExperience = 1 };
+            }
+            return skills;
         }
     }
 }
