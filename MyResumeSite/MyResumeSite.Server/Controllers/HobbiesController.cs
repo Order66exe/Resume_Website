@@ -6,19 +6,12 @@ namespace MyResumeSite.Server.Controllers
     [Route("[controller]")]
     public class HobbiesController : ControllerBase
     {
-        private static readonly string[] Summaries =
-        [
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        ];
-
         [HttpGet(Name = "GetHobbies")]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<Hobby> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            return Enumerable.Range(1, 5).Select(index => new Hobby
             {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+               
             })
             .ToArray();
         }
