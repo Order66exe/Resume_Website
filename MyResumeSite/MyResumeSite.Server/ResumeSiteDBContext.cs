@@ -13,7 +13,7 @@ namespace MyResumeSite.Server
         public ResumeSiteDBContext(DbContextOptions<ResumeSiteDBContext> options) : base(options)
         {
         }
-        //public DbSet<Hobby> Hobbies { get; set; }
+        public DbSet<Hobby> Hobbies { get; set; }
         public DbSet<Skill> Skills { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
