@@ -14,5 +14,7 @@ namespace MyResumeSite.Server
         public string My_Proficiency { get; set; }
         [Column("years_of_experience")]
         public int Years_Of_Experience { get; set; }
+        [Column("category")]
+        public string Category { get; set; }
     }
 }
