@@ -9,7 +9,7 @@ import { Skill } from '../skill';
   standalone: true,
   imports: [RouterOutlet, CommonModule, SkillComponent],
   template: `
-  <p>{{skill.name}}, {{skill.myProficiency}}, {{skill.yearsOfExperience}}</p>
+  <p>{{skill.name}}, {{skill.my_Proficiency}}, {{skill.years_Of_Experience}}</p>
   `,
   //styleUrl: './app.css'
 })

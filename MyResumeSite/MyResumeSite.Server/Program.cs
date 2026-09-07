@@ -1,3 +1,6 @@
+using MyResumeSite.Server;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
@@ -11,6 +14,10 @@ builder.Services.AddCors(options =>
                                               "https://localhost:52569");
                       });
 });
+
+//builder.Services.AddDbContext<ResumeSiteDBContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("ResumeSiteDBContext"))
+//);
 
 // Add services to the container.
 

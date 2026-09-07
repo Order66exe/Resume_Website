@@ -22,6 +22,9 @@ export class SkillsComponent{
     this.skillsService.getSkills().subscribe({
       next: (data) => {
         this.skillsList = [...data];
+        console.log(this.skillsList[0].name);
+        console.log(this.skillsList[0].my_Proficiency);
+        console.log(this.skillsList[0].years_Of_Experience);
         this.filteredSkillsList = this.skillsList;
       },
       error: (error) => {

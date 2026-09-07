@@ -1,6 +1,6 @@
 export interface Skill
 {
   name: string,
-  myProficiency: string,
-  yearsOfExperience: number,
+  my_Proficiency: string,
+  years_Of_Experience: number,
 }
