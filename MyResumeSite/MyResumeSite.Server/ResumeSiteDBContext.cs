@@ -18,22 +18,6 @@ namespace MyResumeSite.Server
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //SqlConnectionStringBuilder builder = new(
-            //"Server=(local);" +
-            //"Database=resumeSQLDB" +
-            //"User Id=resume_api;" +
-            //"Password=hello;" +
-            //"Trusted_Connection=true;" +
-            //"TrustServerCertificate=True;"
-            //);
-            //optionsBuilder.UseSqlServer("Server=127.0.0.1;" +
-            //"Database=resumeSQLDB;" +
-            //"User Id=test;" +
-            //"Password=test;" +
-            //"Integrated Security = false;" +
-            //"Trusted_Connection=False;" +
-            //"Encrypt = True;" +
-            //"TrustServerCertificate=True;");
             optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; " +
                 "Persist Security Info = False; " +
                 "User ID = test; " +

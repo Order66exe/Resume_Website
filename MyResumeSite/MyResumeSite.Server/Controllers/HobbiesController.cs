@@ -18,23 +18,11 @@ namespace MyResumeSite.Server.Controllers
         [HttpGet(Name = "GetHobbies")]
         public async  Task<Hobby[]> Get()
         {
-            var dbContext = new ResumeSiteDBContext();
-            try
-            {
-                dbContext.Database.OpenConnection();
-                dbContext.Database.CloseConnection();
-            }
-            catch (SqlException)
-            {
-                Console.WriteLine("uh oh");
-            }
-            Hobby[] hobbies = new Hobby[5];
+            Hobby[] hobbies = Array.Empty<Hobby>();
             using (var context = new ResumeSiteDBContext())
             {
-                var thing = context.Hobbies.AsQueryable();
-                string tester = thing.ToString();
-                var thingy = thing.ElementAt(0);
-                hobbies = thing.ToArray();
+                var dbSetHobbies = context.Hobbies.AsQueryable();
+                hobbies = dbSetHobbies.ToArray();
             }
             return hobbies;
             //Hobby[] hobbies = new Hobby[5];

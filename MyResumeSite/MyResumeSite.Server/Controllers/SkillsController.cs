@@ -23,24 +23,11 @@ namespace MyResumeSite.Server.Controllers
         [HttpGet(Name = "GetSkills")]
         public async Task<Skill[]> Get()
         {
-
-            var dbContext = new ResumeSiteDBContext();
-            try
-            {
-                dbContext.Database.OpenConnection();
-                dbContext.Database.CloseConnection();
-            }
-            catch (SqlException)
-            {
-                Console.WriteLine("uh oh");
-            }
-            Skill[] skills = new Skill[5];
+            Skill[] skills = Array.Empty<Skill>();
             using (var context = new ResumeSiteDBContext())
             {
-                var thing = context.Skills.AsQueryable();
-                string tester = thing.ToString();
-                var thingy = thing.ElementAt(0);
-                skills = thing.ToArray();
+                var dbSetSkills = context.Skills.AsQueryable();
+                skills = dbSetSkills.ToArray();
             }
             return skills;
             //Skill[] skills = new Skill[5];
