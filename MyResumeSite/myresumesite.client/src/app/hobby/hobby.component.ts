@@ -9,7 +9,7 @@ import { Hobby } from '../hobby';
   standalone: true,
   imports: [RouterOutlet, CommonModule, HobbyComponent],
   template: `
-  <p>{{hobby.name}}, {{hobby.enjoyment}}, {{hobby.amIGood}}</p>
+  <p>{{hobby.name}}, {{hobby.enjoyment}}, {{hobby.amIGood}}, {{hobby.type}}</p>
   `,
   //styleUrl: './app.css'
 })
