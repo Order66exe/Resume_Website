@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, inject, Input, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { SkillsService } from '../skills.service';
+import { SkillsService } from '../services/skills.service';
 import { Skill } from '../skill';
 import { SkillComponent } from '../skill/skill.component';
 
