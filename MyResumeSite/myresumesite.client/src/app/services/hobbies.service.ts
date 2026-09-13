@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { Hobby } from '../hobby';
+import { Hobby } from '../models/hobby';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 @Injectable({

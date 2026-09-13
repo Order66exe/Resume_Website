@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, inject, Input, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { Skill } from '../skill';
+import { Skill } from '../models/skill';
 
 @Component({
   selector: 'app-skill',

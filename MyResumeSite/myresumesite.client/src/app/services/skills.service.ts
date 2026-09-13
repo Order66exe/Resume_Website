@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { Skill } from '../skill';
+import { Skill } from '../models/skill';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 @Injectable({
