@@ -5,12 +5,12 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './about_me.html',
+  templateUrl: './site_architecture.html',
   standalone: true,
   imports: [RouterOutlet, CommonModule],
   //styleUrl: './app.css'
 })
-export class AboutMeComponent {
+export class SiteArchitectureComponent {
   constructor(private http: HttpClient) { }
   protected readonly title = signal('myresumesite.client');
 }
