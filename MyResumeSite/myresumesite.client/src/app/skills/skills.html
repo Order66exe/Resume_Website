@@ -1,1 +1,4 @@
-<p>Hello Skills</p>
+<button class="primary" type="button" (click)="filterResults()">Search</button>
+@if(filteredSkillsList.length) {
+<app-skill *ngFor="let skill of filteredSkillsList" [skill]="skill"></app-skill>
+}

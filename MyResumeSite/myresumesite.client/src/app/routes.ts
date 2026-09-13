@@ -1,30 +1,8 @@
-// import { NgModule } from '@angular/core';
-// import { RouterModule, Routes } from '@angular/router';
-// import { App } from './app';
-// import { Hobbies } from './hobbies_page/hobbies';
-
-// export const routes: Routes = [
-//   {
-//     path: '',
-//     component: App,
-//   },
-//   {
-//     path: '/hobbies',
-//     component: Hobbies,
-//   }
-// ];
-
-// @NgModule({
-//   imports: [RouterModule.forRoot(routes)],
-//   exports: [RouterModule]
-// })
-// export class AppRoutingModule { }
-
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
-import { AboutMeComponent } from './about_me/about_me.component';
 import { SkillsComponent } from './skills/skills.component';
+import { SiteArchitectureComponent } from './site_architecture/site_architecture.component';
 const routeConfig: Routes = [
   {
     path: '',
@@ -37,9 +15,9 @@ const routeConfig: Routes = [
     title: 'Details Page'
   },
   {
-    path: 'about_me',
-    component: AboutMeComponent,
-    title: 'About Me'
+    path: 'site_architecture',
+    component: SiteArchitectureComponent,
+    title: 'Site Architecture'
   },
   {
     path: 'skills',
