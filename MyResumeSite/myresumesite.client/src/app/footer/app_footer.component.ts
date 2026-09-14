@@ -8,8 +8,8 @@ import { CommonModule } from '@angular/common';
   selector: 'app-footer',
   templateUrl: './app_footer.html',
   standalone: true,
-  imports: [HomeComponent, RouterOutlet, RouterModule, CommonModule]
-  //styleUrl: './app.css'
+  imports: [HomeComponent, RouterOutlet, RouterModule, CommonModule],
+  styleUrl: './app_footer.css'
 })
 export class AppFooterComponent {
 }

@@ -8,8 +8,8 @@ import { CommonModule } from '@angular/common';
   selector: 'app-header',
   templateUrl: './app_header.html',
   standalone: true,
-  imports: [HomeComponent, RouterOutlet, RouterModule, CommonModule]
-  //styleUrl: './app.css'
+  imports: [HomeComponent, RouterOutlet, RouterModule, CommonModule],
+  styleUrl: './app_header.css'
 })
 export class AppHeaderComponent {
 }

@@ -1,0 +1,23 @@
+#logo {
+    width:50px;
+    height: 50px;
+}
+
+#header_nav_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+.header_nav_element:hover {
+  background-color: #111111;
+}
+
+.header_nav_link {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
