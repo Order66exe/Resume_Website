@@ -11,6 +11,8 @@ namespace MyResumeSite.Server
         public int Enjoyment { get; set; }
         [Column("am_i_good")]
         public bool AmIGood { get; set; }
-        public string Type { get; set; }
+        public string Category { get; set; }
+        [Column("tile_image_loc")]
+        public string TileImageLoc {  get; set; }
     }
 }

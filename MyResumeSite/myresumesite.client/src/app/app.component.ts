@@ -10,8 +10,8 @@ import { AppHeaderComponent } from './header/app_header.component';
   selector: 'app-root',
   templateUrl: './app.html',
   standalone: true,
-  imports: [HomeComponent, RouterOutlet, RouterModule, CommonModule, AppHeaderComponent, AppFooterComponent]
-  //styleUrl: './app.css'
+  imports: [HomeComponent, RouterOutlet, RouterModule, CommonModule, AppHeaderComponent, AppFooterComponent],
+  styleUrl: './app.css'
 })
 export class AppComponent {
 }

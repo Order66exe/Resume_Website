@@ -11,7 +11,7 @@ import { SkillComponent } from '../skill/skill.component';
   standalone: true,
   imports: [RouterOutlet, CommonModule, SkillComponent],
   templateUrl: "./skills.html",
-  //styleUrl: './app.css'
+  styleUrl: './skills.css'
 })
 export class SkillsComponent{
   skillsList: Skill[] = [];

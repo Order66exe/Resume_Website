@@ -8,10 +8,8 @@ import { Skill } from '../models/skill';
   selector: 'app-skill',
   standalone: true,
   imports: [RouterOutlet, CommonModule, SkillComponent],
-  template: `
-  <p>{{skill.name}}, {{skill.my_Proficiency}}, {{skill.years_Of_Experience}}, {{skill.category}}</p>
-  `,
-  //styleUrl: './app.css'
+  templateUrl: "./skill.html",
+  styleUrl: './skill.css'
 })
 export class SkillComponent {
   @Input() skill!: Skill;

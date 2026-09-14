@@ -1,0 +1,13 @@
+.hobby_tile {
+  width: 98.5%;
+  height: 25%;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hobby_attribute {
+    text-align: center;
+}
