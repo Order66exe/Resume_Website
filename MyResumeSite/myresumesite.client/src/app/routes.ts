@@ -3,16 +3,17 @@ import { HomeComponent } from './home/home.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SiteArchitectureComponent } from './site_architecture/site_architecture.component';
+import { NotFoundComponent } from './not_found/not_found.component';
 const routeConfig: Routes = [
   {
     path: '',
     component: HomeComponent,
-    title: 'Home Page'
+    title: 'Home'
   },
   {
     path: 'hobbies',
     component: HobbiesComponent,
-    title: 'Details Page'
+    title: 'Hobbies'
   },
   {
     path: 'site_architecture',
@@ -23,6 +24,11 @@ const routeConfig: Routes = [
     path: 'skills',
     component: SkillsComponent,
     title: 'Skills'
+  },
+  {
+    path: '**',
+    component: NotFoundComponent,
+    title: 'ERROR PAGE NOT FOUND'
   }
 ];
 
