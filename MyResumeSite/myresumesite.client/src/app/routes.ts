@@ -11,6 +11,11 @@ const routeConfig: Routes = [
     title: 'Home'
   },
   {
+    path: 'home',
+    component: HomeComponent,
+    title: 'Home'
+  },
+  {
     path: 'hobbies',
     component: HobbiesComponent,
     title: 'Hobbies'
