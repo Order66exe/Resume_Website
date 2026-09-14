@@ -2,8 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Component, inject, Input, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { SkillsService } from '../skills.service';
-import { Skill } from '../skill';
+import { SkillsService } from '../services/skills.service';
+import { Skill } from '../models/skill';
 import { SkillComponent } from '../skill/skill.component';
 
 @Component({
@@ -11,7 +11,7 @@ import { SkillComponent } from '../skill/skill.component';
   standalone: true,
   imports: [RouterOutlet, CommonModule, SkillComponent],
   templateUrl: "./skills.html",
-  //styleUrl: './app.css'
+  styleUrl: './skills.css'
 })
 export class SkillsComponent{
   skillsList: Skill[] = [];

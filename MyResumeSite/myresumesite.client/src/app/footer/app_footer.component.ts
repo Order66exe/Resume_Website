@@ -1,0 +1,15 @@
+import { HttpClient } from '@angular/common/http';
+import { Component, OnInit, signal } from '@angular/core';
+import { HomeComponent } from '../home/home.component';
+import { RouterModule, RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-footer',
+  templateUrl: './app_footer.html',
+  standalone: true,
+  imports: [HomeComponent, RouterOutlet, RouterModule, CommonModule],
+  styleUrl: './app_footer.css'
+})
+export class AppFooterComponent {
+}

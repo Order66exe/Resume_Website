@@ -27,13 +27,17 @@
           "builder": "@angular/build:application",
           "options": {
             "browser": "src/main.ts",
-            "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
+            "tsConfig": "tsconfig.app.json",
+            //"assets": [
+            //  {
+            //    "glob": "**/*",
+            //    "input": "public"
+            //  }
+            //],
             "styles": [
               "src/styles.css"
             ]
@@ -81,6 +85,10 @@
         "test": {
           "builder": "@angular/build:unit-test",
           "options": {
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
             "karmaConfig": "karma.conf.js"
           }
         }

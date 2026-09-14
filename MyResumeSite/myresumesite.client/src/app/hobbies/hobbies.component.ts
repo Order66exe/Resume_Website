@@ -2,8 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Component, inject, Input, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { HobbiesService } from '../hobbies.service';
-import { Hobby } from '../hobby';
+import { HobbiesService } from '../services/hobbies.service';
+import { Hobby } from '../models/hobby';
 import { HobbyComponent } from '../hobby/hobby.component';
 
 @Component({
