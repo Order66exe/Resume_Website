@@ -1,4 +1,6 @@
-<button class="primary" type="button" (click)="filterResults()">Search</button>
+<div id="skills_refresh_button">
+  <button class="primary" type="button" (click)="filterResults()">Refresh Skills</button>
+</div>
 @if(filteredSkillsList.length) {
 <app-skill *ngFor="let skill of filteredSkillsList" [skill]="skill"></app-skill>
 }
