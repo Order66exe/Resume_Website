@@ -1,22 +1,8 @@
-.hobby_tile {
-  width: 98.5%;
-  height: 25%;
-  border: 1px solid black;
-  display: inline-block;
-  margin: 1em;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hobby_attribute {
-   text-align: center;
-}
-
 .center {
   text-align: center;
 }
 
-.card {
+.tab {
   width: 100%;
   height: 100%;
   max-width: 700px;
@@ -26,7 +12,7 @@
   background-color: gray;
 }
 
-.card_img {
+.tab_img {
   width: 100%;
   height: 100%;
   max-width: 500px;
@@ -35,10 +21,10 @@
   display: flex;
 }
 
-.card:hover .card_content {
+.tab:hover .tab_content {
   display: block;
 }
 
-.card_content {
+.tab_content {
   display: none;
 }
