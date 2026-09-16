@@ -1,5 +1,8 @@
-<section class="hobby_tile">
-  <h1>{{hobby.name}}</h1>
-  <h2>{{hobby.enjoyment}}</h2>
-  <h2>{{hobby.amIGood}}</h2>
+<section class="card">
+  <h1 class="center">{{hobby.name}}</h1>
+  <div class="card_content">
+  <img class="card_img" src="{{hobby.tileImageLoc}}"/>
+  <h2 class="center">Enjoyment 1-10: {{hobby.enjoyment}}</h2>
+  <h2 class="center">I am good at it? {{hobby.amIGood ? 'Yes' : 'No'}}</h2>
+  </div>
 </section>

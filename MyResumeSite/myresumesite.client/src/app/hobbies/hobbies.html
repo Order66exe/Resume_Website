@@ -1,6 +1,8 @@
 <div id="hobbies_refresh_button">
   <button class="primary" type="button" (click)="filterResults()">Refresh Hobbies</button>
 </div>
-@if(filteredHobbiesList.length) {
-<app-hobby *ngFor="let hobby of filteredHobbiesList" [hobby]="hobby"></app-hobby>
-}
+<div id="hobbies_container">
+  @if(filteredHobbiesList.length) {
+  <app-hobby *ngFor="let hobby of filteredHobbiesList" [hobby]="hobby"></app-hobby>
+  }
+</div>
