@@ -4,13 +4,12 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-root',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: "./home.html",
-  styleUrl: "./home.css"
+  templateUrl: "./not_found.html"
 })
-export class HomeComponent {
+export class NotFoundComponent {
   constructor() {
   }
   protected readonly title = signal('myresumesite.client');

@@ -9,13 +9,7 @@ import { Hobby } from '../models/hobby';
   standalone: true,
 
   imports: [RouterOutlet, CommonModule, HobbyComponent],
-  template: `
-  <section style="background-image:url('{{hobby.tileImageLoc}}')" class="hobby_tile">
-  <h1 class="hobby_attribute">{{hobby.name}}</h1>
-  <h2 class="hobby_attribute">{{hobby.enjoyment}}</h2>
-  <h2 class="hobby_attribute">{{hobby.amIGood}}</h2>
-  </section>
-  `,
+  templateUrl: './hobby.html',
   styleUrl: './hobby.css'
 })
 export class HobbyComponent {

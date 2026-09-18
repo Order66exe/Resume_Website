@@ -1,13 +1,30 @@
-.hobby_tile {
-  width: 98.5%;
-  height: 25%;
-  border: 1px solid black;
-  display: inline-block;
-  margin: 1em;
-  background-repeat: no-repeat;
-  background-size: cover;
+.center {
+  text-align: center;
 }
 
-.hobby_attribute {
-    text-align: center;
+.tab {
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
+  max-height: 700px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: gray;
+}
+
+.tab_img {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  margin: auto;
+  display: flex;
+}
+
+.tab:hover .tab_content {
+  display: block;
+}
+
+.tab_content {
+  display: none;
 }
