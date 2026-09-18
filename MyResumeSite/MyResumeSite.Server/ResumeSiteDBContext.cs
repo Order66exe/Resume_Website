@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Configuration;
+using System.Data.Entity.Migrations;
 using System.Data.SqlClient;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using static System.Net.Mime.MediaTypeNames;
@@ -15,6 +16,9 @@ namespace MyResumeSite.Server
         }
         public DbSet<Hobby> Hobbies { get; set; }
         public DbSet<Skill> Skills { get; set; }
+        public DbSet<Film> Films { get; set; }
+        //public DbSet<Movie> Movies { get; set; }
+        //public DbSet<Show> Shows { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
