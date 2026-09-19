@@ -6,7 +6,6 @@ namespace MyResumeSite.Server
     public class Film
     {
         [Key]
-        [StringLength(255)]
         public int Id { get; set;  }
         public string Title { get; set; }
         public char Rating { get; set; }
