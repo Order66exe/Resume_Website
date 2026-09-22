@@ -46,11 +46,12 @@ namespace MyResumeSite.Server.Controllers
                     return NotFound();
                 }
                 filmEntity.Title = updatedFilm.Title;
-                filmEntity.Starring = updatedFilm.Starring;
+                filmEntity.MPA = updatedFilm.MPA;
                 filmEntity.Rating = updatedFilm.Rating;
                 filmEntity.Genre = updatedFilm.Genre;
-                filmEntity.Release_Date = updatedFilm.Release_Date;
                 filmEntity.Tags = updatedFilm.Tags;
+                filmEntity.Starring = updatedFilm.Starring;
+                filmEntity.Release_Date = updatedFilm.Release_Date;
                 await context.SaveChangesAsync();
             }
             return NoContent();

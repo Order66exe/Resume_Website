@@ -8,7 +8,8 @@ namespace MyResumeSite.Server
         [Key]
         public int Id { get; set;  }
         public string Title { get; set; }
-        public char Rating { get; set; }
+        public string MPA { get; set; }
+        public int Rating { get; set; }
         public string Genre { get; set; }
         public string Tags { get; set; }
         public string Starring { get; set; }

@@ -1,0 +1,9 @@
+<div id="films_refresh_button">
+  <button class="primary" type="button" (click)="filterResults()">Refresh Films</button>
+</div>
+<button matButton (click)="openDialog()">HELLO</button>
+<div id="films_container">
+  @if(filteredFilmsList.length) {
+  <app-film *ngFor="let film of filteredFilmsList" [film]="film"></app-film>
+  }
+</div>

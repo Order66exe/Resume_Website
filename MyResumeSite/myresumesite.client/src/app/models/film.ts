@@ -1,6 +1,7 @@
 export interface Film {
   id: number,
   title: string,
+  mpa: string,
   rating: number,
   genre: boolean,
   tags: string,
