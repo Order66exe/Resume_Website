@@ -4,6 +4,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SiteArchitectureComponent } from './site_architecture/site_architecture.component';
 import { NotFoundComponent } from './not_found/not_found.component';
+import { FilmsComponent } from './films/films.component';
 const routeConfig: Routes = [
   {
     path: '',
@@ -29,6 +30,11 @@ const routeConfig: Routes = [
     path: 'skills',
     component: SkillsComponent,
     title: 'Skills'
+  },
+  {
+    path: 'films',
+    component: FilmsComponent,
+    title: 'Films'
   },
   {
     path: '**',
